@@ -5,7 +5,7 @@ import * as parseComments from 'multilang-extract-comments';
 
 import { join, relative } from 'path';
 
-const DEFAULT_EXTS = ['ts', 'js', 'tsx', 'jsx', 'mjs'];
+const DEFAULT_EXTS = ['ts', 'js', 'mjs'];
 
 interface Options {
   source: string;

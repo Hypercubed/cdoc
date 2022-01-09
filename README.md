@@ -10,7 +10,7 @@ npm install -g @hypercubed/cdoc
 
 ## Comment formatting rules
 
-Currently cDoc extracts multi-line comments.  It does not extract single-line comments.  By deafult, cDoc will not comments for js and js-ish files (ts, jsx, etc).  Other languages are supported by including additional fire extensions (see CLI below).  Language-specific comment syntax [can be found here](https://github.com/nknapp/comment-patterns/blob/master/docs/languages.md).
+Currently cDoc extracts multi-line comments.  It does not extract single-line comments.  By default, cDoc will extract comments for js and js-ish files (js, mjs, ts, etc).  Other languages are supported by including additional file extensions (see CLI below).  Language-specific comment syntax [can be found here](https://github.com/nknapp/comment-patterns/blob/master/docs/languages.md).
 
 ## CLI
 
