@@ -1,19 +1,18 @@
 {
-  "name": "dsd",
-  "version": "0.0.1",
-  "description": "dsd CLI",
+  "name": "@hypercubed/cdoc",
+  "version": "1.0.0",
+  "description": "cDoc CLI",
   "private": true,
-  "types": "build/types/types.d.ts",
+  "types": "build/types/index.d.ts",
   "bin": {
-    "dsd": "bin/dsd"
+    "cdoc": "bin/cdoc"
   },
   "scripts": {
     "format": "prettier --write **/*.{js,ts,tsx,json}",
     "lint": "tslint -p .",
     "clean-build": "rm -rf ./build",
     "compile": "tsc -p .",
-    "copy-templates": "if [ -e ./src/templates ]; then cp -a ./src/templates ./build/; fi",
-    "build": "npm run format && npm run lint && npm run clean-build && npm run compile && npm run copy-templates",
+    "build": "npm run format && npm run lint && npm run clean-build && npm run compile",
     "prepublishOnly": "npm run build",
     "test": "jest",
     "watch": "jest --watch",

@@ -1,0 +1,3 @@
+# Mul
+
+Multiply two numbers.
